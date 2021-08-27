@@ -1,0 +1,52 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-size:  35;
+}
+
+.p-one {
+  font-family: arial;
+  color: blue;
+  font-size: 20px;
+}
+
+.p-two {
+  font-family: sans-serif;
+  color: red;
+  font-size: 20px;
+}
+
+ol {
+  font-family: arial;
+  color: green;
+}
+
+ul {
+  font-family: 'Courier New', Courier, monospace;
+  color: crimson;
+}
+
+.dl-one {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: brown;
+}
+
+.dl-two {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: coral;
+}
+
+.one {
+  float: left;
+  max-width: 45%;
+  height: 500px;
+  margin-right: 5px;
+}
+
+.two {
+  float: right;
+  max-width: 45%;
+  height: 500px;
+  margin-left: 5px;
+}

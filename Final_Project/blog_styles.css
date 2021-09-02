@@ -1,0 +1,79 @@
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.main h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main::after {
+    content: "";
+    background-image: url(NHL_Logo.jpg);
+    background-size: 50% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    opacity: .25;
+}
+
+body {
+    background-color: lightgrey;
+    margin: inherit;
+}
+
+.podcasts {
+    position: relative;
+    float: left;
+    width: 45%;
+    margin-left: 50px;
+    height: 400px;
+    outline: 2px solid black;
+}
+
+.blogs {
+    position: relative;
+    float: right;
+    width: 45%;
+    margin-right: 50px;
+    height: 400px;
+    outline: 2px solid black;
+}
+
+.blogs-content {
+    margin: 10px;
+    text-align: justify;
+}
+
+.top-players {
+    position: absolute;
+    bottom: 0;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width: 95%;
+    height: 300px;
+    outline: 2px solid black;
+}
+
+ul {
+    list-style-type: none;
+}

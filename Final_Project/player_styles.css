@@ -36,54 +36,9 @@
     opacity: .25;
 }
 
-.scores {
-    float: left;
-    width: 45%;
-    margin-left: 50px;
-    height: 800px;
-    outline: 2px solid black;
-}
-
-.news {
-    float: right;
-    width: 45%;
-    margin-right: 50px;
-    height: 800px;
-    outline: 2px solid black;
-}
-
-.news-content {
-    margin: 10px;
-    text-align: justify;
-}
-
-.scores-1 {
-    margin-top: 100px;
-}
-
-.scores-content {
-    float: center;
-    margin: 20px;
-    height: 50px;
-    outline: 2px solid black;
-
-}
-
-.table-score {
-    text-align: right;
-    
-}
-
-.table-team {
-    text-indent: 25px;
-}
-
-table {
-    margin-top: 20px;
-}
-
-td {
-    width: 95%;
+body {
+    background-color: lightgrey;
+    margin: inherit;
 }
 
 .player-picture {
@@ -100,6 +55,7 @@ td {
     height: 800px;
     outline: 2px solid black;
 }
+
 .player-image {
     display: block;
     margin-left: auto;
@@ -112,9 +68,4 @@ td {
     margin: 20px;
     height: 50px;
     outline: 2px solid black;
-}
-
-body {
-    background-color: lightgrey;
-    margin: inherit;
 }

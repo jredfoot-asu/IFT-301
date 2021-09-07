@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jason Redfoot HW3Part2</title>
+    <!-- Jason Redfoot -->
+</head>
+<body>
+    <img src="asuTransparent.png" alt="Arizona State University Logo">
+    <form action="">
+        <table class="table-1">
+            <tr>
+                <td class="table-1">
+                    <label for="fname">First name</label>
+                </td>
+                <td class="table-1">
+                    <input type="text" id="fname" name="fname" size="41">
+                </td>
+            </tr>
+            <tr>
+                <td class="table-1">
+                    <label for="lname">Last name</label>
+                </td>
+                <td class="table-1">
+                    <input type="text" id="lname" name="lname" size="41">
+                </td>
+            </tr>
+            <tr>
+                <td class="table-1">
+                    <label for="address">Street Address</label>
+                </td>
+                <td class="table-1">
+                    <input type="text" id="address" name="address" size="41">
+                </td>
+            </tr>
+            <tr>
+                <td class="table-1">
+                    <label for="city">City</label>
+                </td>
+                <td class="table-1">
+                    <input type="text" id="city" name="city" size="41">
+                </td>
+            </tr>
+            <tr>
+                <td class="table-1">
+                    <label for="state">State</label>
+                </td>
+                <td class="table-1">
+                    <input type="text" id="state" name="state" size="41" maxlength="2">
+                </td>
+            </tr>
+            <tr>
+                <td class="table-1">
+                    <label for="zipcode">Zipcode/Postal Code</label>
+                </td>
+                <td class="table-1">
+                    <input type="text" id="zipcode" name="zipcode" size="41" maxlength="5">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <table class="table-2">
+            <tr>
+                <td colspan="2">Credit Card Type</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="radiobutton" id="RD01">
+                    <label for="RD01" class="cards">MasterCard</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="radiobutton" id="RD02">
+                    <label for="RD02" class="cards">Visa</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="radiobutton" id="RD03">
+                    <label for="RD03" class="cards">Discover</label>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td class="table-1">
+                    <label class="CCNmbr" for="CCNmbr" width="150px">Credit Card Number</label>
+                </td>
+                <td>
+                    <input type="text" id="CCNmbr" name="CCNmbr" size="41">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <table >
+            <tr>
+                <td class="table-1">
+                    <label for="expdate">Expiration Date</label>
+                </td>
+                <td>
+                    <select name="expdate" id="SMonth">
+                        <option value="mnth">--Month--</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="expdate" id="SMonth">
+                        <option value="year">--Year--</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td class="table-2">
+                    <label class="spnotes" for="TxtCom">Special Notes</label>
+                </td>
+                <td>
+                    <textarea id="TxtCom" name="TxtCom" cols="35" rows="5"></textarea>
+                </td>
+            </tr>
+        </table>
+            <br>
+            <br>
+            <button type="submit">Submit Payment</button>
+    </form>
+    
+</body>
+</html>

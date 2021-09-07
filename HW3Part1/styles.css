@@ -1,0 +1,35 @@
+table.table-1, th.table-1, tr.table-1, td.table-1 {
+    width: 350px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+tr.table-1 {
+    background-color: grey;
+}
+
+table.table-2, th, tr, td {
+    width: 750px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead {
+    background-color: aqua;
+}
+
+tfoot {
+    background-color: azure;
+}
+
+.row-color {
+    background-color: black;
+    color: white;
+}
+
+thead, tbody, tfoot {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

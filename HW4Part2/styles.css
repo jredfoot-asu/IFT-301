@@ -1,0 +1,29 @@
+body {
+  background-color: grey;
+
+}
+
+img {
+  border: 1px solid black;
+  display: inline-block;
+  float: left;
+  width: 25%;
+  margin-top: 12.5%;
+  margin-left: 25px;
+  margin-right: 25px
+}
+
+p {
+  display: inline-block;
+  width: 50%;
+  color: aqua;
+  padding-left: 10%
+}
+
+h1 {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin-top: 20%;
+  padding-left: 5%
+}

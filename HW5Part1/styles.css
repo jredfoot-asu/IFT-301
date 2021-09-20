@@ -7,6 +7,41 @@ h1 {
   text-align: center;
 }
 
+table {
+  color: #ECD662;
+}
+
+ol {
+  display: block;
+  color: #ECD662;
+  margin-top: 25px;
+  margin-left: 37.5%;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+  margin: 5px;
+  color: #ECD662;
+}
+
+iframe {
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 35%;
+}
+
+#ingredients {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  margin-top: 25px;
+  padding: 5%;
+  margin-right: 4%;
+  margin-left: 4%;
+  font-size: 20px;
+}
+
 .chili-1 {
   display: block;
   width: 25%;
@@ -16,11 +51,17 @@ h1 {
 }
 
 .chili-2 {
-  width: 25%;
+  display: inline-block;
+  width: 33%;
   height: auto;
+  margin-top: 25px;
+  margin-left: auto;
 }
 
 .crockpot {
-  width: 25%;
+  display: inline-block;
+  width: 33%;
   height: auto;
+  margin-top: 25px;
+  margin-right: auto;
 }

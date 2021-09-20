@@ -1,0 +1,26 @@
+body {
+  background-color: #3E215D;
+}
+
+h1 {
+  color: #ECD662;
+  text-align: center;
+}
+
+.chili-1 {
+  display: block;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+}
+
+.chili-2 {
+  width: 25%;
+  height: auto;
+}
+
+.crockpot {
+  width: 25%;
+  height: auto;
+}

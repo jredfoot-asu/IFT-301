@@ -1,0 +1,31 @@
+img {
+  display: block;
+  width: 33%;
+  height: auto;
+  margin-left: 33%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#NBA_logo {
+  display: none;
+}
+
+#NHL_logo {
+  display: none;
+}
+
+#NFL_logo {
+  display: none;
+}
+
+#MLB_logo {
+  display: none;
+}
+
+body {
+  background-color: black;
+  color: royalblue;
+}

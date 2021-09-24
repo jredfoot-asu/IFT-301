@@ -1,0 +1,28 @@
+body {
+  background-color: #FF8000;
+}
+
+div {
+  display: inline-block;
+  width: 25%;
+  height: 500px;
+  border: 1px solid black;
+  margin-left: 5.5%;
+  margin-top: 10%;
+  box-shadow: 7.5px 5px 5px royalblue;
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: grey;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  align-items: center;
+  margin-left: 12.5%;
+  width: 75%;
+  height: 50%;
+}

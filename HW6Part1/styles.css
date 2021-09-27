@@ -5,7 +5,7 @@ body {
 div {
   display: inline-block;
   width: 25%;
-  height: 500px;
+  height: 600px;
   border: 1px solid black;
   margin-left: 5.5%;
   margin-top: 10%;
@@ -13,10 +13,12 @@ div {
   border-radius: 5%;
   overflow: hidden;
   background-color: grey;
+  text-align: center;
 }
 
 h1 {
   text-align: center;
+  border-bottom: 0;
 }
 
 img {
@@ -25,4 +27,23 @@ img {
   margin-left: 12.5%;
   width: 75%;
   height: 50%;
+}
+
+table   {
+  display: inline-table;
+  color: white;
+  border-spacing: 20px 2px;
+  vertical-align: middle;
+  margin-left: 0 auto 0 auto;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+th {
+  color: #FF8000;
+  font-weight: bolder;
+}
+
+td {
+  color: black
 }

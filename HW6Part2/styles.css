@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  background-color: grey;
+  color: #FF8000;
+}
+
+h1 {
+  margin-top: 2.5%;
+  color: royalblue;
+}
+
+img {
+  margin-top: 5%;
+  height: 250px;
+  width: auto;
+}
+
+input {
+  margin: 5px;
+  border-radius: 8px;
+}
+
+#submit {
+  border-radius: 8px;
+}

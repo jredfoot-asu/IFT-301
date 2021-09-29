@@ -5,8 +5,14 @@ body {
 }
 
 h1 {
-  margin-top: 15%;
+  margin-top: 2.5%;
   color: royalblue;
+}
+
+img {
+  margin-top: 5%;
+  height: 250px;
+  width: auto;
 }
 
 input {

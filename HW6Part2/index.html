@@ -7,17 +7,20 @@
     <!-- Jason Redfoot -->
     <link rel="stylesheet" href="styles.css">
 </head>
-  <img src="ASU_seal.png" alt="Arizona State University crest.">
+  <img src="ASU_seal.png" alt="Arizona State University">
   <h1>Name and Age Validator</h1>
-  <form class="form" action="index.html" method="post">
+  <form>
     <label for="fname">First Name:</label><br>
-    <input type="text" id="firstName" name="fname"><br>
+    <input type="text" id="fname"><br>
+    <div id="fnameFeedback"></div>
 
     <label for="lname">Last Name:</label><br>
-    <input type="text" id="lastName" name="lname"><br>
+    <input type="text" id="lname"><br>
+    <div id="lnameFeedback"></div>
 
     <label for="age">Age:</label><br>
-    <input type="text" id="age" name="age"><br>
+    <input type="text" id="age"><br>
+    <div id="ageFeedback"></div>
     <input type="submit" id="submit" name="submit" value="submit">
   </form>
 

@@ -47,3 +47,8 @@ th {
 td {
   color: black
 }
+
+p {
+  margin: 15px 5px 0 5px;
+  text-align: center;
+}
